@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15sp">
+
+
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Permütasyon "
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="n tane farklı elemanın bir sıra üzerinde r li (r ≤ n) sıralanışlarından her birine   n nin r li permütasyonu denir. " />
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="n elemanlı A kümesinin r li permütasyonlarının sayısı; " />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/permutasyon1" />
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Not: r=n ise; n farklı elemanın n li permütasyonlarının sayısı P(n,n)=n! dir. " />
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yani n farklı elemanın doğrusal bir sıra üzerindeki farklı sıralanışlarının sayısı n! tanedir. " />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tekrarlı Permütasyon "
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="n tane nesnenin n1 tanesi bir türden, n2 tanesi ikinci türden, ...nr tanesi r.türden ve n1+n2+...+nr=n ise n nesnenin n li permütasyonlarının sayısı; " />
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="n tane eleman içerisinden; \nn1 tanesi 1. çeşit ve özdeş, \nn2 tanesi 2. çeşit ve özdeş, \nn3 tanesi 3. çeşit ve özdeş,\nnr tanesi r. çeşit ve özdeş olmak üzere; bu n eleman bir sıra üzerinde " />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/permutasyon2" />
+
+        </LinearLayout></ScrollView></android.support.constraint.ConstraintLayout>

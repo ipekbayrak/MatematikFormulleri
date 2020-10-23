@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15sp">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kümeler"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kümelerde Birleşim İşlemi Özellikleri "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" A ve B kümelerinin birleşimi, iki kümenin elemanları bir eleman bir kez kullanılacak şekilde bir küme içinde birleştirilmesidir."
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="* Kümelerde birleşim işlemi işareti ∪ sembolüdür"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" A ve B kümelerinin birleşim işlemi A∪B şeklin de gösterilir."
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A∪B = {x: x∈A veya x∈B} "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Her A ve B kümesi için A∪B=B∪A dır. "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1) A∪A=A \n2) A∪B=B∪A \n3) A∪∅=A \n4) A∪(B∪C)=(A∪B)∪C \n5) A∪B=∅ ise A=∅ ve B=∅ dir. \n6) A⊂B ise A∪B=B dir \n7) s(A∪B)=s(A)+s(B)-s(A∩B) \n8) s(A∪B∪C)=s(A)+s(B)+s(C)-s(A∩B)- s(A∩C)-s(B∩C)+s(A∩B∩C) \n9) s(A∪B)=s(A-B)+s(A∩B)+s(B-A) \n10) A ⊂ (A ∪ B) ve B ⊂ (A ∪ B) \n11) (A ∩ B) ⊂ (A ∪ b) \n12) A ⊂ (A ∪ B) \n13) B ⊂ (A ∪ B) \n14) (A ∩ B) ⊂ (A ∪ b)"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kümelerde Kesişim İşlemi Özellikleri "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A ve B kümelerinin her ikisinde de ortak olarak bulunan elemanların kümesine bu iki kümenin kesişimi yada arakesiti denir."
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kümelerde kesişim işlemi işareti ∩ sembolüdür"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" A ve B kümelerinin kesişim işlemi A∩B şeklin de gösterilir."
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A∩B={x: x∈A ve x∈B}"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1) A∩A=A
+                \n2) A∩B=B∩A
+                \n3) A∩∅=∅
+                \n4) A∩(B∩C)=(A∩B)∩C
+                \n5) A∩B=∅ ise i) A=∅ veya B=∅ dir
+                \nii) A ve B kümeleri ayrıktır.
+                \n6) A⊂B ise A∩B=A dir
+                \n7) A∪(B∩C)= (A∪B)∩(A∪C)
+                \n8) A∩(B∪C)= (A∩B)∪(A∩C)
+                \n9) s(A∩B)= s(A)+s(B)-(A∪B)
+                \n10) s(A∩B)=s(A∪B)-s(A-B)-s(B-A)
+                \n11) (A ∩ B) ⊂ A ve (A ∩ B) ⊂ B
+                \n12) (A ∩ B) ⊂ (A ∪ b)
+                \n13) (A ∩ B) ⊂ A
+                \n14) (A ∩ B) ⊂ B
+                \n15) (A ∩ B) ⊂ (A ∪ b)"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kümelerde Fark İşlemi Özellikleri "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A ve B iki küme olsun. A kümesine ait olup B kümesine ait olmayan elemanlardan meydana gelen kümeye A fark B kümesi denir. A \ B veya A – B şeklinde gösterilir."
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Buna göre, A \ B = { x | x ∈ A ve x ∉ B} olur. Şekilde Venn şeması ile gösterilmiştir."
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A,B,C birer küme olmak üzere  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1) A\A=∅
+\n2) A\∅=A
+\n3) ∅\A=∅
+\n4) A\B ≠B\A
+\n5) A \ ( B ∩ C) = (A \ B) ∪ (A\C)
+\n6) A \ ( B ∪ C) = (A \ B) ∩ (A\C)
+\n7) A \ ( B \ C) = (A \ B) ∪ (A∩C)
+\n8) (A \ B) ∪ B = A ∪ B
+\n9) (A \ B) ∩ ( A ∩ B)=∅
+\n10) (B\A) ∩ ( A ∩ B)=∅
+\n11) A \ (A \ B)=A ∩ B
+\n12) A \ (B \ A)=A
+\n13) B \ (A \ B)=B
+\n14) (A \ B) ∩ (B \ A)=∅
+\n15) (A \ B) \ (B \ A)=A \ B
+\n16) (B \ A) \ (A \ B)=B \ A
+\n17) (A \ B) ⊂ A
+\n18) (B \ A) ⊂ B
+\n19) (A \ B) ∩ B=∅
+\n20) A\( A ∩ B)=A \ B
+\n21) A=(A \ B) ∪(A ∩ B)
+\n22) B=(B \ A)∪(A ∩ B)
+\n23) A ⊂ B ise A \ B=∅
+\n24) A U B = (A \ B) ∪(B \ A) ∪(A ∩ B)"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kümelerde Evrensel Küme ve Tümleyen Özellikleri"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Evrensel küme "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Elemanları incelenen kümeye göre, yapılması gereken bütün işlemleri içine alabilecek şekilde belirlenen, en geniş kümeye evrensel küme denir. Genel olarak E ile gösterilir. Evrensel küme sonlu veya sonsuz küme olabilir. Evrensel küme, incelenen probleme göre değişir. Hiç bir zaman boş küme olamaz"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Evrensel kümeyi Venn şeması ile gösterirken, diğer kümelerden ayırt etmek için dikdörtgen şeklinde gösterilir."
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tümleme "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="E evrensel kümesi içinde bir A kümesi veriliyor. A kümesi, E evrensel kümenin bir alt kümesidir. Buna göre, E evrensel kümesine ait olup, A kümesine ait olmayan elemanların oluşturduğu kümeye, A kümesinin tümleyeni denir. A' veya A sembolü ile gösterilir."
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="E, evrensel küme
+\nA ⊂ E , B ⊂ E ,
+\nA' A nın tümleyeni
+\nB' B nin tümleyeni
+\nolmak üzere,"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1) A' ⊂ E
+\n2)A∪A'=E
+\n3)A∩A'=∅
+\n4)A∪E=E
+\n5)E'=∅
+\n6)∅'=E
+\n7)A∩E=A
+\n8)(A')'=A
+\n9)E\A=A'
+\n10)A \ B=A∩B' (A∪B≠E ise)
+\n11)(A \ B)'=A'∪B
+\n12)A \ B=B' (A∪B=E ise)
+\n13)A\A'=A"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DE MORGAN KURALLARI "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1) (A U B)'=A'∩B'
+\n2) (A ∩ B)'=A'∪B"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Alt Küme Sorularında Kullanılan Formüller "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Herhangi iki A ve B kümeleri verilmiş olsun. A kümesinin her elemanı B kümesinin de bir elemanı ise A kümesine B kümesinin bir alt kümesi denir. A ⊂ B şeklinde yazılır “A alt küme B” diye okunur."
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bu tanıma göre, (A ⊂ B) ⇔ (∀ x ∈ A⇒ x ∈ B) dir"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="n elemanlı bir kümenin alt küme sayısı 2n formülüyle bulunur. Ayrıca n elemanlı bir kümeden seçilmiş 2 elemandan"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/kumeler1" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="n elemanlı bir kümeden seçilmiş r elemandan "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/kumeler2" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Küme Problemlerinde Kullanılan Formüller "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="E, evrensel küme \nA ⊂ E , B ⊂ E , C ⊂ E \nA' A nın tümleyeni  olmak üzere,
+ "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1) s (A U B)= s(A)+s(B) ( A ∩ B=∅ ise ) \n2) s (A U B)= s(A)+s(B)-s (A ∩ B) ( A ∩ B≠∅ ise ) \n3) s(A∪B∪C)=s(A)+s(B)+S(C)-s (A ∩ B)s (A ∩ C)-s (B ∩ C)+s (A ∩ B∩C) \n4) s(A)+s(A')=S(E) \n5) s(A)=s(A \ B)+s(A ∩ B) \n6) s(B)=s(B \ A)+s(A ∩ B) \n7) s(A U B) = s(A \ B) + s(B \ A) + s(A ∩ B) \n8) s(A U B) = s(A \ B) + s(A) \n9) s(E)=s(A U B)+s[(A U B)'] "
+                android:textSize="18sp" />
+        </LinearLayout></ScrollView></android.support.constraint.ConstraintLayout>

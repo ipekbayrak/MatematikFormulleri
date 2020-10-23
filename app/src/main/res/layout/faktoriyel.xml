@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15sp">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Faktöriyel "
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1 den n ye kadar olan doğal sayıların çarpımına             n faktöriyel denir, n! biçiminde gösterilir."
+                android:textAlignment="viewStart"
+                android:textSize="18sp"
+                android:gravity="start" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="n∈N+ için"
+                android:textAlignment="viewStart"
+                android:textSize="18sp"
+                android:gravity="start" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/a_n_n_n_1_n_2_3_2_1_nb_n_n_n_1_nn_n_n_1_n_2_nn_n_n_1_n_2_n_3_nc_m_n_ise_m_ifadesi_n_i_inde_vard_r"
+                android:textAlignment="viewStart"
+                android:textSize="18sp"
+                android:gravity="start" />
+
+        </LinearLayout></ScrollView></android.support.constraint.ConstraintLayout>

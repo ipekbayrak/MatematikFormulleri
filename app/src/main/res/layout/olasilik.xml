@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15sp">
+
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Olasılık  "
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir deneyde olanaklı sonuçların kümesine örnek uzay, örnek uzayın her alt kümesine olay denir"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="E örnek uzayı için boş kümeye olanaksız olay(imkânsız olay), E kümesine kesin olay denir. E örnek uzayının A ve B gibi iki olayı için, A ∩ B = 0 ise, A ve B olaylarına ayrık olaylar denir.   "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir E örnek uzayının tüm alt kümelerinin kümesi T ve değer kümesi \nR={x ∈ R : 0 ≤ x ≤ 1} olan P fonksiyonu aşağıdaki aksiyomları gerçekliyorsa buna olasılık fonksiyonu denir. "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A ∈ T ise p(A) reel sayısına da A olayının olasılığı denir. "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1) ∀A ∈ T için 0 ≤ p(A) ≤ 1 dir. \n2) p(E)=1 dir. \n3) A, B ∈ T ve A ∩ B = 0 ise \np(A ∪ B)=p(A)+p(B) dir. "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Özellikler "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1) P(0)=0 dır. \n2) A ⊂ B ise p(A) ≤ p(B) \n3) p(A)=1 - p(A) (A olayının olmama olasılığı) \n4) p(A ∪ B)=p(A)+p(B)-p(A ∩ B) dir. \n5) E={x1,x2,x3} örnek uzayları için: \np(x1)+p(x2)+p(x3)=1 dir "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Eş Olumlu Örnek Uzay Nedir? "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView61"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  Olayların gerçekleşme olasılığı eşit olan örnek uzaya denir. E eş olumlu örnek uzay ve A ⊂ E bir olay ise, A nın olasılığı; "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/olasilik1" />
+
+            <TextView
+                android:id="@+id/textView62"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="E örnek uzayı A ⊂ E, B ⊂ E ve                           p(A ∩ B)=p(A).p(B) ise, "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView63"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A ve B olaylarına bağımsız olaylar denir"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView65"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="[p(A) ≠ 0, p(B) ≠ 0] "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView66"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir E örnek uzayının iki olayı A ve B olsun. A olayının olasılığı B olayına bağlı ise, A olayının olasılığına, A olayının B koşullu olasılığı denir ve bu olasılık;"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/olasilik2" />
+
+            <TextView
+                android:id="@+id/textView67"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" ile gösterilir. Örnek uzay eş olumlu ise; "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/olasilik3" />
+
+        </LinearLayout></ScrollView></android.support.constraint.ConstraintLayout>

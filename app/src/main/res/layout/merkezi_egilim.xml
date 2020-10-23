@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15sp">
+
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Merkezi Eğilim ve Yayılım Ölçüleri"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ortanca (medyan): Veriler küçükten büyüğe veya büyükten küçüğe sıralandığında tam ortada kalan değer ortancadır. Eğer tam ortada sayı yoksa ortaya gelen iki sayı alınır ve ikiye bölünür, çıkan sonuç virgüllüde olsa ortancadır. "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tepe değer (mod): Veriler küçükten büyüğe veya büyükten küçüğe sıralandığında en çok tekrar eden sayı tepe değerdir. Bir veri grubunda birden fazla en çok tekrar eden terim bulunabilir. Bu durumda veri grubunun birden fazla tepe değeri vardır."
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView68"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Aritmetik Ortalama"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView80"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Verilerin toplamının veri sayısına bölümüdür"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView69"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="a1,a2,a3...an gibi n tane sayının aritmetik ortalaması; "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/merkezi1" />
+
+            <TextView
+                android:id="@+id/textView78"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Geometrik Ortalama"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView79"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="a1, a2, a3, … , xn   sayılarının geometrik ortalaması"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/merkezi2" />
+
+            <TextView
+                android:id="@+id/textView81"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Harmonik Ortalama  "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView82"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="x1, x2, x3, … , xn sayılarının harmonik ortalaması "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/merkezi3" />
+
+            <TextView
+                android:id="@+id/textView83"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Açıklık (aralık) "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView70"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="(ranj): Veri grubu küçükten büyüğe sıralanır. En büyük değerden en küçük değer çıkarılır. "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView71"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ranj=En Büyük Değer –En Küçük Değer "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView72"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Çeyrek Açıklık "
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView73"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Alt çeyrek, ortancaya göre verilerin alt yarısının ortanca değeridir. "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView74"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Üst çeyrek, ortancaya göre verilerin üst yarısının ortanca değeridir. "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView75"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Çeyrekler açıklığı = üst çeyrek – alt çeyrek şeklinde hesaplanır. "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView76"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Çeyrekler açıklığı, uçlarda yer alan verilerden daha az etkilendiği için verilerin yayılması hakkında açıklıktan daha iyi bilgi verir."
+                android:textSize="18sp" />
+
+        </LinearLayout></ScrollView></android.support.constraint.ConstraintLayout>
